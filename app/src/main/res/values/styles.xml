@@ -1,0 +1,48 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="StandardTextField">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_small</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="LightTextField" parent="StandardTextField">
+        <item name="android:textSize">@dimen/standard_text_size</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="LargeTextField" parent="LightTextField">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="AuthorizationEditText" parent="StandardTextField">
+        <item name="android:layout_width">@dimen/edit_field_width</item>
+        <item name="android:layout_height">@dimen/edit_field_height</item>
+        <item name="android:background">@drawable/bg_white_rounded</item>
+        <item name="android:layout_margin">@dimen/margin_small</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/edit_field_padding</item>
+        <item name="android:maxLength">32</item>
+        <item name="android:textColorHint">@color/colorGrayLight</item>
+    </style>
+
+    <style name="Button" parent="StandardTextField">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:background">@drawable/selector_authorization_btn</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_margin">@dimen/margin_grand</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

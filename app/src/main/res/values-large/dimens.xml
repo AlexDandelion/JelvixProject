@@ -1,0 +1,27 @@
+<resources>
+
+    <dimen name="logo_size">250dp</dimen>
+    <dimen name="spinner_size">130dp</dimen>
+    <dimen name="avatar_small_size">120dp</dimen>
+    <dimen name="avatar_large_size">300dp</dimen>
+
+    <dimen name="padding_small">7dp</dimen>
+    <dimen name="padding_base">11dp</dimen>
+    <dimen name="padding_grand">15dp</dimen>
+
+    <dimen name="margin_extra_small">8dp</dimen>
+    <dimen name="margin_small">15dp</dimen>
+    <dimen name="margin_base">30dp</dimen>
+    <dimen name="margin_grand">50dp</dimen>
+
+    <dimen name="edit_field_width">280dp</dimen>
+    <dimen name="edit_field_height">55dp</dimen>
+    <dimen name="edit_field_padding">35dp</dimen>
+
+    <dimen name="button_width">160dp</dimen>
+    <dimen name="button_height">55dp</dimen>
+
+    <dimen name="standard_corners_radius">10dp</dimen>
+    <dimen name="standard_text_size">20sp</dimen>
+    <dimen name="large_text_size">30sp</dimen>
+</resources>

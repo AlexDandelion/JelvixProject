@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
+        android:layout_marginBottom="@dimen/margin_grand"
+        android:src="@mipmap/ic_logo" />
+
+    <EditText
+        android:id="@+id/registration_email"
+        style="@style/AuthorizationEditText"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/registration_password"
+        style="@style/AuthorizationEditText"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/registration_repeat_password"
+        style="@style/AuthorizationEditText"
+        android:hint="@string/repeat_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/registration_btn"
+        style="@style/Button"
+        android:text="@string/registration" />
+
+    <TextView
+        android:id="@+id/registration_back"
+        style="@style/LightTextField"
+        android:text="@string/back" />
+
+</LinearLayout>

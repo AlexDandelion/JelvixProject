@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">JelvixApp</string>
+
+    <string name="back">Back</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="registration">Registration</string>
+
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="email">Email</string>
+
+    <string name="err_email">Incorrect email!</string>
+    <string name="err_pass">Incorrect password!</string>
+    <string name="err_identical_pass">Incorrect or not identical passwords!</string>
+    <string name="err_display_user">Something wrong, cannot display current user!</string>
+</resources>
